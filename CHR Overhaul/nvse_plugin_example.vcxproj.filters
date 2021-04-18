@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="internal\utility.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameAPI.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameBSExtraData.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameData.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameExtraData.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameForms.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameObjects.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameOSDepend.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameRTTI.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameScript.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameSettings.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameTasks.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameTiles.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\GameTypes.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\SafeWrite.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\nvse\Utilities.cpp">
+      <Filter>nvse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="internal\containers.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\decoding.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\havok.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\jip_nvse.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\netimmerse.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\utility.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\nvse\CommandTable.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameAPI.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameBSExtraData.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameData.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameEffects.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameExtraData.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameForms.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameObjects.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameOSDepend.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameRTTI.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameSettings.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameTasks.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameTiles.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameTypes.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\GameUI.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\PluginAPI.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\SafeWrite.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\nvse\Utilities.h">
+      <Filter>nvse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="nvse">
+      <UniqueIdentifier>{ca229393-a8f0-4223-a170-5b66b0f03056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal">
+      <UniqueIdentifier>{885b4110-ee0c-4cad-801f-10ba49d0ed4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
