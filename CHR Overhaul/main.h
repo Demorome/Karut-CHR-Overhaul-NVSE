@@ -168,7 +168,7 @@ int __fastcall hk_GetActorValueInt(ActorValueOwner* avOwner, void* edx, UInt32 a
 
 double __fastcall hk_GetActorValueFloat(ActorValueOwner* avOwner, void* edx, UInt32 avCode)
 {
-	double returnValueOriginal = ThisStdCall_F<double>(kOriginalGetActorValueF, avOwner, avCode);
+	double returnValueOriginal = ((double(__thiscall*)(ActorValueOwner*, UInt32))kOriginalGetActorValueF)(avOwner, avCode);
 	auto returnValue = returnValueOriginal;
 	if (ShouldModifyForDialogue_wrap(avCode))
 	{
